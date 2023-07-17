@@ -1,10 +1,14 @@
 import React from 'react'
 import { TestSty } from './style'
+import Marquee from 'react-fast-marquee'
 
 const Test = () => {
     return (
         <TestSty>
-            <marquee>Sayt Test Rejimida Ishlamoqda</marquee>
+            <Marquee
+            >
+                Sayt Test Rejimida Ishlamoqda
+            </Marquee>
         </TestSty>
     )
 }

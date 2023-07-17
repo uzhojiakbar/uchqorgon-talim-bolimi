@@ -1,5 +1,5 @@
 import React from 'react'
-import { Button, NavbarCon } from './style'
+import { NavbarCon } from './style'
 
 const Navbar = () => {
     return (
