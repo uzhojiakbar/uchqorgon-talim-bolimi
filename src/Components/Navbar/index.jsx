@@ -1,10 +1,28 @@
 import React from 'react'
-import { NavbarCon } from './style'
+import { NavBtn, NavbarCon, Section } from './style'
+
 
 const Navbar = () => {
     return (
         <NavbarCon>
-            <h1>Navbar</h1>
+            <Section className='section left' >
+                <NavBtn>
+                    <i className='fa-solid fa-bars' ></i>
+                </NavBtn>
+            </Section>
+            <Section className='section center' >
+                <NavBtn>
+                    <i className='fa-solid'>M</i>
+                </NavBtn>
+            </Section>
+            <Section className='section right' >
+                <NavBtn>
+                    <i className='fa-solid fa-eye' ></i>
+                </NavBtn>
+                <NavBtn>
+                    <i className='fa-solid'><span>O'Z</span></i>
+                </NavBtn>
+            </Section>
         </NavbarCon>
     )
 }

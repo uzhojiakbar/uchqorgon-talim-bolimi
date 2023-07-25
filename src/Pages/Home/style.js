@@ -3,25 +3,25 @@ import { styled } from "styled-components";
 import back from '../../Assets/imgs/back1.jpg'
 
 const HomeStyle = styled.div`
-    width: 100%;
-    max-width: 1920px;
-    height: 800px;
-    margin: 0 auto;
-    background-image: url(${back});
-    background-repeat: repeat-x;
-    position: relative;
-    background-size: cover;
-    z-index: 1;
-    ::before {
+   height: 98vh;
+   background-image: url(${back});
+   background-size: cover;
+   background-repeat: no-repeat;
+
+   position: relative;
+   z-index: 0;
+
+   &::before{
         content: '';
         position: absolute;
-        top: 0;
         left: 0;
-        width: 100%;
+        top: 0;
         height: 100%;
+        width: 100%;
+        background-color: #062dc7;
+        opacity: .4;
         z-index: -1;
-        background-color:  rgba(6, 45, 199, 0.200);
-    }
+   }
 `
 
 

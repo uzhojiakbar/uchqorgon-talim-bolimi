@@ -2,11 +2,13 @@ import { styled } from "styled-components";
 
 export const TestSty = styled.div`
     width: 100%;
-    padding: 5px 0;
+    height: 2vh;
+    display: flex;
+    justify-content: center;
     background: var(--background-warning);
     user-select: none;
-    marquee{
+    .mark{
         color: white;
-        font-size: 14px;
+        font-size: 1em;
     }
 `

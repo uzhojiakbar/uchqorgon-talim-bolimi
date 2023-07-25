@@ -6,6 +6,7 @@ const Test = () => {
     return (
         <TestSty>
             <Marquee
+                className='mark'
             >
                 Sayt Test Rejimida Ishlamoqda
             </Marquee>

@@ -11,8 +11,13 @@
 :root {
     /* color */
     --white: #fff;
+    --yellow: #ffc107;
+
+    /*  */
+    --primery: #062dc7;
 
     /* background color */
     --background-filter-color: rgba(6, 45, 199, 0.200);
     --background-warning: #c13e29;
+
 }
