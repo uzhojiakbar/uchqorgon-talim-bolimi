@@ -2,13 +2,13 @@ import { styled } from "styled-components";
 
 export const TestSty = styled.div`
     width: 100%;
-    height: 2vh;
+    min-height: 2vh;
     display: flex;
     justify-content: center;
     background: var(--background-warning);
     user-select: none;
     .mark{
         color: white;
-        font-size: 1em;
+        font-size: 13px;
     }
 `

@@ -8,7 +8,6 @@ const NavbarCon = styled.div`
     padding: 0 15px;
 
     height: 80px;
-    border: 1px solid red;
 
     display: flex;
     align-items: center;

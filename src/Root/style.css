@@ -12,9 +12,11 @@
     /* color */
     --white: #fff;
     --yellow: #ffc107;
-
+    --blue: #062dc7;
+    --blue-2: #2850ed;
+    --blue-3: #3b60f5;
     /*  */
-    --primery: #062dc7;
+    --primery: #007bff;
 
     /* background color */
     --background-filter-color: rgba(6, 45, 199, 0.200);

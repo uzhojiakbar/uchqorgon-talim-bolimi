@@ -19,7 +19,7 @@ const HomeStyle = styled.div`
         height: 100%;
         width: 100%;
         background-color: #062dc7;
-        opacity: .4;
+        opacity: .5;
         z-index: -1;
    }
 `
