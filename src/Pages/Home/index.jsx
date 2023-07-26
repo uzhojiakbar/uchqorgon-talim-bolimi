@@ -6,8 +6,10 @@ import NavBottom from '../../Components/NavBottom'
 const Home = () => {
     return (
         <HomeStyle className='home'>
-            <Navbar />
-            <NavBottom />
+            <div className='center' >
+                <Navbar />
+                <NavBottom />
+            </div>
         </HomeStyle>
     )
 }

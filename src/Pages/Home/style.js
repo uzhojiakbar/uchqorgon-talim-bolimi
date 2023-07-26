@@ -22,6 +22,14 @@ const HomeStyle = styled.div`
         opacity: .5;
         z-index: -1;
    }
+   .center{
+      max-width: 90%;
+      margin: 0 auto;
+   }
+   svg path{
+      color: white;
+      fill: white;
+   }
 `
 
 
