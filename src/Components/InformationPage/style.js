@@ -1,12 +1,12 @@
 import { styled } from "styled-components";
 
 export const InformationSt = styled.div`
-    position: relative;
     top: -60px;
     width: 100%;
     display: flex;
     justify-content: space-evenly;
     padding: 0 40px;
+    flex-wrap: wrap;
     .info{
         display: flex;
         flex-direction: column;
@@ -26,13 +26,15 @@ export const InfoPgSt = styled.div`
     padding-top: 50px;
     display: flex;
     flex-direction: column;
-    /* justify-content: center; */
     align-items: center;    
     gap: 40px;
     
     margin-top: 30px;
     border-radius: 7px;
     padding: 20px 5px;
+
+    position: relative;
+
 `
 export const Manzil = styled.div`
     font-size: 18px;
