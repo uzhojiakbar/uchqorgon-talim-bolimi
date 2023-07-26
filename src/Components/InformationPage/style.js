@@ -1,10 +1,12 @@
 import { styled } from "styled-components";
 
 export const InformationSt = styled.div`
+    position: relative;
+    top: -60px;
     width: 100%;
     display: flex;
     justify-content: space-evenly;
-    padding: 0 70px;
+    padding: 0 40px;
     .info{
         display: flex;
         flex-direction: column;
@@ -19,14 +21,15 @@ export const InfopgImg = styled.div`
 
 export const InfoPgSt = styled.div`
     width: 300px;   
-    min-height: 400px;
+    min-height: 450px;
     background-color: #4758ad;
     padding-top: 50px;
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    gap: 40px;
+    /* justify-content: center; */
     align-items: center;    
+    gap: 40px;
+    
     margin-top: 30px;
     border-radius: 7px;
     padding: 20px 5px;
@@ -34,8 +37,8 @@ export const InfoPgSt = styled.div`
 export const Manzil = styled.div`
     font-size: 18px;
     color: var(--white);
-    /* padding-top: 30px;
-    padding-bottom: 10px; */
+    padding-top: 30px;
+    padding-bottom: 10px;
     text-align: center;
     text-transform: uppercase;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif !important;
@@ -54,9 +57,11 @@ export const Malumotlar = styled.div`
 export const InfopgBt = styled.button`
     width: 150px;
     height: 40px;
+    position: absolute;
+    bottom: 20px;
     background-color: var(--white);
     border: none;
-    /* padding: 10px; */
+    padding: 10px;
     border-radius: 10px;
     /* margin-top: 70px; */
     color: var(--blue);
