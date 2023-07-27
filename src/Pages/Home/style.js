@@ -18,17 +18,19 @@ const HomeStyle = styled.div`
         top: 0;
         height: 100%;
         width: 100%;
-        background-color: #062dc7;
-        opacity: .5;
+        background-color: var(--filter);
+        opacity: .7;
         z-index: -1;
    }
    .center{
       max-width: 90%;
+      height: 100%;
       margin: 0 auto;
-   }
-   svg path{
-      color: white;
-      fill: white;
+      padding: 10px 0;
+
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
    }
 `
 

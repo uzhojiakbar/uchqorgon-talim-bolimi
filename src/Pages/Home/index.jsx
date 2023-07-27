@@ -2,13 +2,23 @@ import React from 'react'
 import Navbar from '../../Components/Navbar'
 import { HomeStyle } from './style'
 import NavBottom from '../../Components/NavBottom'
+import OpenerSection from '../../Components/OpenerSection'
+import Count from '../../Components/Count'
 
 const Home = () => {
     return (
         <HomeStyle className='home'>
             <div className='center' >
-                <Navbar />
-                <NavBottom />
+                <div className={'section'} >
+                    <Navbar />
+                    <NavBottom />
+                </div>
+                <div className='section' >
+                    <OpenerSection />
+                </div>
+                <div className='section' >
+                    <Count />
+                </div>
             </div>
         </HomeStyle>
     )
