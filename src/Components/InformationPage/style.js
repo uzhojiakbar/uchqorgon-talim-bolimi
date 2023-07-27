@@ -1,11 +1,13 @@
 import { styled } from "styled-components";
+import { media } from "../../utils/media";
 
 export const InformationSt = styled.div`
-    top: -60px;
+    position: relative;
+    top: -80px;
     width: 100%;
     display: flex;
     justify-content: space-evenly;
-    padding: 0 40px;
+    padding: 0 60px;
     flex-wrap: wrap;
     .info{
         display: flex;
@@ -14,13 +16,19 @@ export const InformationSt = styled.div`
         justify-content: center;
         gap: 5px;
     }
-    `
+    ${media.tablet}{
+        top: -20px;
+    }
+    ${media.mobileM}{
+        top: 0px;
+    }
+`
 export const InfopgImg = styled.div`
     font-size: 50px;
 `
 
 export const InfoPgSt = styled.div`
-    width: 300px;   
+    width: 370px;   
     min-height: 450px;
     background-color: #4758ad;
     padding-top: 50px;

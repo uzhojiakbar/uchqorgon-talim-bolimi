@@ -1,9 +1,10 @@
 import { styled } from "styled-components";
 
 import back from '../../Assets/imgs/back1.jpg'
+import { media } from "../../utils/media";
 
 const HomeStyle = styled.div`
-   height: 98vh;
+   height: 90vh;
    background-image: url(${back});
    background-size: cover;
    background-repeat: no-repeat;
@@ -31,8 +32,12 @@ const HomeStyle = styled.div`
       display: flex;
       flex-direction: column;
       justify-content: start;
-      gap: 70px;
+      gap: 120px;
    }
+
+   ${media.tablet}{
+        height: 98vh;
+    }
 `
 
 

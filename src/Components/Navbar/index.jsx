@@ -20,7 +20,7 @@ const Navbar = ({ setBackground }) => {
             <Section className='section right' >
                 <div className='view' >
                     <NavBtn onClick={() => setView(!view)} >
-                        <i className='fa-solid fa-eye' ></i>
+                        <i className='fa-solid fa-eye'></i>
                     </NavBtn>
                     {
                         view ? <ViewComponent setBackground={setBackground} setView={setView} /> : null

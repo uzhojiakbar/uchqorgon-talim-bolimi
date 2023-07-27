@@ -7,10 +7,10 @@ const OpenerSection = () => {
     return <Container>
         <Left>
             <div>
-                <img src={MMTV} />
+                <img alt="MMTV" src={MMTV} />
             </div>
             <p className="big" >
-                Toshkent shahar xalq ta’limi boshqarmasi
+                Uchqo'rgon tumani xalq talimi bo'limi
             </p>
         </Left>
         <Right>

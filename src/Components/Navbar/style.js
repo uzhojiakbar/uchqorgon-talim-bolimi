@@ -1,4 +1,5 @@
 import { styled } from "styled-components";
+import { media } from "../../utils/media";
 
 const NavbarCon = styled.div`
     max-width: 1440px;
@@ -11,6 +12,12 @@ const NavbarCon = styled.div`
 
     display: flex;
     align-items:center;
+
+    ${media.tablet}{
+        display: flex;
+        align-items: center;
+        padding: 10px 15px;
+    }
 `
 
 const NavBtn = styled.div`
