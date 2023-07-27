@@ -53,6 +53,9 @@ const Section = styled.div`
     align-items: center;
     justify-content: center;
     gap: 20px;
+    .view{
+        position: relative;
+    }
 `
 
 

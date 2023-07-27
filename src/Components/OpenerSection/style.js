@@ -7,7 +7,7 @@ const Container = styled.div`
     padding: 0 60px;
     ${media.tablet}{
         flex-direction: column;
-        align-items: ce;
+        align-items: center;
     }
     
 `
@@ -21,7 +21,7 @@ const Left = styled.div`
         border-radius: 50%;
     }
     .big{
-        width: 200px;
+        width: 400px;
         font-size: 35px;
         font-family: sans-serif;
         font-weight: 900;

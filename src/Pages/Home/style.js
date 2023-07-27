@@ -19,7 +19,7 @@ const HomeStyle = styled.div`
         height: 100%;
         width: 100%;
         background-color: var(--filter);
-        opacity: .7;
+        opacity: .6;
         z-index: -1;
    }
    .center{
@@ -30,7 +30,8 @@ const HomeStyle = styled.div`
 
       display: flex;
       flex-direction: column;
-      justify-content: space-between;
+      justify-content: start;
+      gap: 70px;
    }
 `
 

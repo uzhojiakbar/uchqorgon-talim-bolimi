@@ -5,12 +5,12 @@ import NavBottom from '../../Components/NavBottom'
 import OpenerSection from '../../Components/OpenerSection'
 import Count from '../../Components/Count'
 
-const Home = () => {
+const Home = ({ setBackground }) => {
     return (
         <HomeStyle className='home'>
             <div className='center' >
                 <div className={'section'} >
-                    <Navbar />
+                    <Navbar setBackground={setBackground} />
                     <NavBottom />
                 </div>
                 <div className='section' >
