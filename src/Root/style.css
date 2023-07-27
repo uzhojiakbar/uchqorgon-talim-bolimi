@@ -18,6 +18,7 @@
     --gray: #d3dee6;
     --gray: #d9cccc;
     --bold-gray: rgb(51, 48, 48);
+    --opacity-gray: rgba(0, 0, 0, 0.445);
     /*  */
     --primery: #007bff;
 
@@ -25,4 +26,21 @@
     --background-filter-color: rgba(6, 45, 199, 0.200);
     --background-warning: #c13e29;
     --filter: #062dc7;
+}
+
+*::-webkit-scrollbar {
+    width: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+*::-webkit-scrollbar-thumb {
+    background-color: rgba(128, 128, 128, 0.486);
+    border-radius: 25px;
+    cursor: pointer;
+}
+
+*::selection {
+    background-color: var(--selection);
+    color: white;
 }

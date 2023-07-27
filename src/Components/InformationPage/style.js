@@ -3,7 +3,7 @@ import { media } from "../../utils/media";
 
 export const InformationSt = styled.div`
     position: relative;
-    top: -80px;
+    top: -50px;
     width: 100%;
     display: flex;
     justify-content: space-evenly;
@@ -28,7 +28,7 @@ export const InfopgImg = styled.div`
 `
 
 export const InfoPgSt = styled.div`
-    width: 370px;   
+    width: 340px;   
     min-height: 450px;
     background-color: #4758ad;
     padding-top: 50px;
