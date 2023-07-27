@@ -2,8 +2,10 @@ import { styled } from "styled-components";
 import { media } from "../../utils/media";
 
 export const InformationSt = styled.div`
+    max-width: 1440px;
+    margin: 0 auto;
     position: relative;
-    top: -50px;
+    /* top: -50px; */
     width: 100%;
     display: flex;
     justify-content: space-evenly;
@@ -28,7 +30,7 @@ export const InfopgImg = styled.div`
 `
 
 export const InfoPgSt = styled.div`
-    width: 340px;   
+    width: 300px;   
     min-height: 450px;
     background-color: #4758ad;
     padding-top: 50px;

@@ -41,6 +41,6 @@
 }
 
 *::selection {
-    background-color: var(--selection);
+    background-color: var(--blue-2);
     color: white;
 }
