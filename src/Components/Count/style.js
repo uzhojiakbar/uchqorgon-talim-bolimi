@@ -26,7 +26,7 @@ const CountCon = styled.div`
 const Option = styled.div`
     min-width: 330px;
     margin: 0 10px;
-    height: 20vh;
+    height: 200px;
     background-color: var(--opacity-gray);
     display: flex;
     flex-direction: column;
