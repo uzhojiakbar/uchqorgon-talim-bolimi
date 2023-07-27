@@ -6,6 +6,7 @@ import OpenerSection from '../../Components/OpenerSection'
 import Count from '../../Components/Count'
 import InformationPage from '../../Components/InformationPage'
 import Contact from '../../Components/Contact'
+import Stat from '../../Components/Statistics'
 
 const Home = ({ setBackground }) => {
     return (
@@ -26,6 +27,7 @@ const Home = ({ setBackground }) => {
             </HomeStyle>
             <InformationPage />
             <Contact />
+            <Stat />
         </>
     )
 }
