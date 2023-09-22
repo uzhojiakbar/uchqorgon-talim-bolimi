@@ -2,6 +2,7 @@ import React from 'react'
 import { NavBtn, NavbarCon, Section } from './style'
 import { useState } from 'react'
 import ViewComponent from '../View'
+import XtvLogo from '../../Assets/logo/xtvLogo.svg'
 
 const Navbar = ({ setBackground }) => {
     const [view, setView] = useState(false);
@@ -13,8 +14,8 @@ const Navbar = ({ setBackground }) => {
                 </NavBtn>
             </Section>
             <Section className='section center' >
-                <NavBtn>
-                    <i className='fa-solid'>M</i>
+                <NavBtn noBorder={true}>
+                    <img src={XtvLogo} alt="" />
                 </NavBtn>
             </Section>
             <Section className='section right' >

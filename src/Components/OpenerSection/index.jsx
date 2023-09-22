@@ -1,7 +1,7 @@
 import React from "react";
 import { Container, Left, Right } from "./style";
 
-import MMTV from '../../Assets/imgs/mmtv.jpg'
+import MMTV from '../../Assets/logo/xtvLogo.svg'
 
 const OpenerSection = () => {
     return <Container>

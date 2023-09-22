@@ -22,12 +22,11 @@ const Left = styled.div`
     align-items: center;
     gap: 40px;
     img{
-        width: 120px;
+        width: 150px;
         height: auto;
-        border-radius: 50%;
     }
     .big{
-        width: 400px;
+        width: 320px;
         font-size: 35px;
         font-family: sans-serif;
         font-weight: 900;

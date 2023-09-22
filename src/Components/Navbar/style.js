@@ -21,9 +21,9 @@ const NavbarCon = styled.div`
 `
 
 const NavBtn = styled.div`
-    width:  50px;
-    height:  50px;
-    border: 1px solid white;
+    min-width:   50px;
+    min-height:  50px;
+    border: ${({noBorder})=>noBorder?'none':'1px solid white'};
 
     display: flex;
     align-items: center;
@@ -44,6 +44,7 @@ const NavBtn = styled.div`
     }
 
 
+    ${({noBorder})=>noBorder?'':`
     &:hover{
         background-color: var(--yellow);
         .fa-solid{
@@ -52,6 +53,11 @@ const NavBtn = styled.div`
                 color: var(--primery);
             }
         }
+    }
+    `}
+
+    img{
+        width: 70px;
     }
 `
 
