@@ -34,14 +34,15 @@ const NavBottomCon = styled.div`
 const Child = styled.div`
     position: absolute;
     top: 50px;
+    min-width: 190px;
     display: flex;
     flex-direction: column;
 
     background-color: var(--blue-2);
-    padding: 0 5px;
+    padding: 0px 0;
     border: 1px solid var(--yellow);
     .child-link{
-        padding: 10px 15px;
+        padding: 15px 15px;
         text-decoration: none;
         border-bottom: 1px solid white;
         font-size: 16px;

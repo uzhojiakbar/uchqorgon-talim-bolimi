@@ -14,7 +14,7 @@ const Home = ({ setBackground }) => {
             <HomeStyle className='home'>
                 <div className='center' >
                     <div className={'section'} >
-                        <Navbar setBackground={setBackground} />
+                        <Navbar theme={'light'} setBackground={setBackground} />
                         <NavBottom />
                     </div>
                     <div className='section' >
