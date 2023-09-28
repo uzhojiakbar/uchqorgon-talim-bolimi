@@ -32,7 +32,7 @@ const NavBtn = styled.div`
   display: flex;
   align-items: center;
   justify-content: center;
-  gap:20px;
+  gap: 20px;
   cursor: pointer;
   transition: 0.3s;
   .fa-solid {
@@ -52,13 +52,12 @@ const NavBtn = styled.div`
     }
   }
 
-
   ${({ noborder }) =>
     noborder
       ? ""
       : `
     &:hover{
-        background-color: var(--yellow);
+        background-color: var(--yellow-full);
         .fa-solid{
             color: var(--primery);
             span{

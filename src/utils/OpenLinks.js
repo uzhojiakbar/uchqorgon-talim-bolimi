@@ -10,16 +10,16 @@ const OpenLinks = [
         name: "Rahbariyat",
         path: {
           type: "local",
-          path: "leders/index",
+          path: "/leders/index",
         },
-        element: <Leaders/>
+        element: <Leaders />,
       },
       {
         id: 2,
         name: "Boshqarma tuzilmasi",
         path: {
           type: "local",
-          path: "page/structure",
+          path: "/page/structure",
         },
       },
       {
@@ -27,7 +27,7 @@ const OpenLinks = [
         name: "Missiya, maqsad va vazifalar",
         path: {
           type: "local",
-          path: "page/mission",
+          path: "/page/mission",
         },
       },
       {
@@ -35,7 +35,7 @@ const OpenLinks = [
         name: "Rekvizitlar",
         path: {
           type: "local",
-          path: "page/requisities",
+          path: "/page/requisities",
         },
       },
       {
@@ -43,103 +43,33 @@ const OpenLinks = [
         name: "Bog`lanish",
         path: {
           type: "local",
-          path: "static/contacts",
+          path: "/static/contacts",
         },
       },
     ],
   },
+  // NO child
   {
     id: 2,
     name: "Hujjatlar",
     path: "/hujjatlar",
   },
+  // NO child
   {
     id: 3,
     name: "Ta`lim",
-    child: [
-      { id: 1, name: "Rahbariyat", path: {
-          type: "local",
-          path: "leders/index",
-        }, },
-      { id: 2, name: "Rahbariyat", path: {
-          type: "local",
-          path: "leders/index",
-        }, },
-      { id: 3, name: "Rahbariyat", path: {
-          type: "local",
-          path: "leders/index",
-        }, },
-      { id: 4, name: "Rahbariyat", path: {
-          type: "local",
-          path: "leders/index",
-        }, },
-    ],
   },
   {
     id: 4,
     name: "Interaktiv xizmatlar",
-    child: [
-      { id: 1, name: "Rahbariyat", path: {
-          type: "local",
-          path: "leders/index",
-        }, },
-      { id: 2, name: "Rahbariyat", path: {
-          type: "local",
-          path: "leders/index",
-        }, },
-      { id: 3, name: "Rahbariyat", path: {
-          type: "local",
-          path: "leders/index",
-        }, },
-      { id: 4, name: "Rahbariyat", path: {
-          type: "local",
-          path: "leders/index",
-        }, },
-    ],
   },
   {
     id: 5,
     name: "Axborot xizmati",
-    child: [
-      { id: 1, name: "Rahbariyat", path: {
-          type: "local",
-          path: "leders/index",
-        }, },
-      { id: 2, name: "Rahbariyat", path: {
-          type: "local",
-          path: "leders/index",
-        }, },
-      { id: 3, name: "Rahbariyat", path: {
-          type: "local",
-          path: "leders/index",
-        }, },
-      { id: 4, name: "Rahbariyat", path: {
-          type: "local",
-          path: "leders/index",
-        }, },
-    ],
   },
   {
     id: 6,
     name: "Ochiq ma`lumotlar",
-    child: [
-      { id: 1, name: "Rahbariyat", path: {
-          type: "local",
-          path: "leders/index",
-        }, },
-      { id: 2, name: "Rahbariyat", path: {
-          type: "local",
-          path: "leders/index",
-        }, },
-      { id: 3, name: "Rahbariyat", path: {
-          type: "local",
-          path: "leders/index",
-        }, },
-      { id: 4, name: "Rahbariyat", path: {
-          type: "local",
-          path: "leders/index",
-        }, },
-    ],
   },
 ];
 

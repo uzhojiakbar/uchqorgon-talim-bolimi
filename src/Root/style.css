@@ -1,56 +1,74 @@
-* {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
+/* FONTS */
+/* Montserrat */
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
 
-    font-weight: 400;
-    font-family: 'Montserrat', sans-serif;
-    color: white;
+/* FONTS */
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+
+  font-weight: 400;
+  font-family: "Montserrat", sans-serif;
+  color: white;
 }
 
 :root {
-    /* color */
-    --white: #fff;
-    --black: #000;
-    --yellow: #ffc107;
-    --blue: #062dc7;
-    --blue-2: #2850ed;
-    --blue-3: #3b60f5;
-    --gray: #d3dee6;
-    --gray: #d9cccc;
-    --bold-gray: rgb(51, 48, 48);
-    --opacity-gray: rgba(0, 0, 0, 0.445);
-    /*  */
-    --primery: #007bff;
+  /* color */
+  --white: #fff;
+  --black: #000;
+  --yellow: #ffc107;
+  --blue: #062dc7;
+  --blue-2: #475cd6;
+  --blue-3: #3e51be;
+  --gray: #d3dee6;
+  --gray: #d9cccc;
+  --bold-gray: rgb(51, 48, 48);
+  --opacity-gray: rgba(0, 0, 0, 0.445);
+  /*  */
+  --primery: #007bff;
+  --primery-2: #2f44bf;
 
-    /* background color */
-    --background-filter-color: rgba(6, 45, 199, 0.200);
-    --background-warning: #c13e29;
-    --filter: #062dc7;
+  --yellow-full: #f0f220;
+
+  /* background color */
+  --background-filter-color: rgba(6, 45, 199, 0.2);
+  --background-warning: #c13e29;
+  --filter: #062dc7;
 }
 
 *::-webkit-scrollbar {
-    width: 5px;
-    border-radius: 5px;
-    cursor: pointer;
+  width: 5px;
+  border-radius: 5px;
+  cursor: pointer;
 }
 
 *::-webkit-scrollbar-thumb {
-    background-color: rgba(128, 128, 128, 0.486);
-    border-radius: 25px;
-    cursor: pointer;
+  background-color: rgba(128, 128, 128, 0.486);
+  border-radius: 25px;
+  cursor: pointer;
 }
 
 *::selection {
-    background-color: var(--blue-2);
-    color: white;
+  background-color: var(--blue-2);
+  color: white;
 }
 
-.title{
-    color: var(--black);
-    /* font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; */
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 900;
-    font-size:16px;
-    width: 140px;
+.title {
+  color: var(--black);
+  /* font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; */
+  font-family: "Montserrat", sans-serif;
+  font-weight: 900;
+  font-size: 16px;
+  width: 140px;
+}
+
+.main {
+  max-width: 1440px;
+  width: 100%;
+  margin: 0 auto;
+
+  display: flex;
+  flex-direction: column;
 }

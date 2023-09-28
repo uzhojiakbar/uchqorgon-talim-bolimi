@@ -7,48 +7,55 @@ import { Route, Routes } from 'react-router-dom'
 import { useState } from 'react'
 import Home from '../Pages/Home'
 import { Main } from './style.js'
-import Navbar from '../Components/Navbar'
-import NavBottom from '../Components/NavBottom'
 import OpenLinks from '../utils/OpenLinks'
+import LightNavbar from '../Components/LightNavbar'
 
 
 const Root = () => {
     const [background, setBackground] = useState('def')
     return (
         <Main background={background} >
+            {/* All Pages */}
+
             <Test />
+
+            {/* All Pages */}
             <Routes>
-                {/* Global */}
+                {/* Main Page */}
                 <Route path={'/'} element={<Home setBackground={setBackground} />} />
                 {
                     pagesLink.map((v) => {
                         return <Route key={v.id} path={v.path} element={v.element} />
                     })
                 }
-                {/* Global */}
+                {/* Main Page */}
 
                 {/* Pages */}
                 {
                     OpenLinks.map((v) => {
-                        // v.child.map((v)=>{
-                        //     <Route path={v.path.path} element={v.element?v.element:'Coming soon'}/>
-                        // })
-                        console.log(typeof v.child);
+                        return typeof v.child === typeof [] ?
+                            v.child.map((k) => {
+                                return k.path.type === 'local' ?
+                                    <Route
+                                        path={k.path.path}
+                                        element={
+                                            <>
+                                                <LightNavbar setBackground={setBackground} />
+                                                {k?.element}
+                                            </>
+                                        } />
+                                    : ''
+                            })
+                            : console.log('norarr')
                     })
                 }
-
 
                 {/* Pages */}
 
                 {/* NotFound */}
                 <Route path='*' element={
                     <>
-                        <div className={'section'} >
-                            <Navbar
-                                setBackground={setBackground}
-                                theme={'dark'} />
-                            <NavBottom />
-                        </div>
+                        <LightNavbar setBackground={setBackground} />
                         <h1
                             style={{ "color": "black", "padding": '10px' }}
                         >
