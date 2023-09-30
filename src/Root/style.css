@@ -76,6 +76,9 @@
 .bold {
   font-weight: 900;
 }
+.fw700 {
+  font-weight: 700;
+}
 
 .textCenter {
   text-align: center;

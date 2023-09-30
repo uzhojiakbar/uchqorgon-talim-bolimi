@@ -1,3 +1,4 @@
+import BoshqarmaTuzilmas from "../Pages/BoshqarmaTuzilmasi";
 import Leaders from "../Pages/Leaders";
 import Missiya from "../Pages/Missiya";
 import Rekvizitlar from "../Pages/Rekvizitlar";
@@ -24,6 +25,7 @@ const OpenLinks = [
           type: "local",
           path: "/page/structure",
         },
+        element: <BoshqarmaTuzilmas />,
       },
       {
         id: 3,

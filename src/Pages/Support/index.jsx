@@ -18,7 +18,7 @@ const Support = () => {
                             </div>
                             <div className="info">
                                 <div className="name bold serif">Telefon raqami</div>
-                                <a href='tel:998941525555' className="link">94 152 55 55</a>
+                                <a href='tel:+998694624015' className="link">69 462 40 15</a>
                             </div>
                         </div>
                         <div className="item">
