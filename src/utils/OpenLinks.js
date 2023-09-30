@@ -1,4 +1,5 @@
 import Leaders from "../Pages/Leaders";
+import Missiya from "../Pages/Missiya";
 
 const OpenLinks = [
   {
@@ -29,6 +30,7 @@ const OpenLinks = [
           type: "local",
           path: "/page/mission",
         },
+        element: <Missiya />,
       },
       {
         id: 4,

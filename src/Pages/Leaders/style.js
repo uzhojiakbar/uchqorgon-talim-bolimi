@@ -13,7 +13,6 @@ const Container = styled.div`
 
     .left {
       flex: 0.8;
-      border: 1px solid red;
     }
     .right {
       flex: 1;

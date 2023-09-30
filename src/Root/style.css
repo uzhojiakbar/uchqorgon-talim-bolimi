@@ -72,3 +72,18 @@
   display: flex;
   flex-direction: column;
 }
+
+.bold {
+  font-weight: 900;
+}
+
+.textCenter {
+  text-align: center;
+}
+
+.black {
+  color: var(--black) !important;
+}
+.serif {
+  font-family: sans-serif;
+}
