@@ -84,6 +84,11 @@
 .black {
   color: var(--black) !important;
 }
+
+.black * {
+  color: var(--black);
+}
+
 .serif {
   font-family: sans-serif;
 }

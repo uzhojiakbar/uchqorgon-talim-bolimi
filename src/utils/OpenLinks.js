@@ -1,6 +1,7 @@
 import Leaders from "../Pages/Leaders";
 import Missiya from "../Pages/Missiya";
 import Rekvizitlar from "../Pages/Rekvizitlar";
+import Support from "../Pages/Support";
 
 const OpenLinks = [
   {
@@ -49,6 +50,7 @@ const OpenLinks = [
           type: "local",
           path: "/static/contacts",
         },
+        element: <Support />,
       },
     ],
   },
