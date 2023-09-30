@@ -87,3 +87,11 @@
 .serif {
   font-family: sans-serif;
 }
+
+.paddingTop50 {
+  padding: 50px 0;
+}
+
+.marginTop15 {
+  margin: 15px 0;
+}

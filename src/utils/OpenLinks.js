@@ -1,5 +1,6 @@
 import Leaders from "../Pages/Leaders";
 import Missiya from "../Pages/Missiya";
+import Rekvizitlar from "../Pages/Rekvizitlar";
 
 const OpenLinks = [
   {
@@ -39,6 +40,7 @@ const OpenLinks = [
           type: "local",
           path: "/page/requisities",
         },
+        element: <Rekvizitlar />,
       },
       {
         id: 4,
