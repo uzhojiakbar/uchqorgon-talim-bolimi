@@ -3,6 +3,7 @@ import Leaders from "../Pages/Leaders";
 import Missiya from "../Pages/Missiya";
 import Rekvizitlar from "../Pages/Rekvizitlar";
 import Support from "../Pages/Support";
+import TahliliyMalumotlar from "../Pages/TahliliyMalumot";
 
 const OpenLinks = [
   {
@@ -66,6 +67,49 @@ const OpenLinks = [
   {
     id: 3,
     name: "Ta`lim",
+    child: [
+      {
+        id: 1,
+        name: "Tahlily Malumotlar",
+        path: {
+          type: "local",
+          path: "/page/education",
+        },
+        element: <TahliliyMalumotlar />,
+      },
+      {
+        id: 2,
+        name: "Boshqarma tuzilmasi",
+        path: {
+          type: "local",
+          path: "/page/structure",
+        },
+      },
+      {
+        id: 3,
+        name: "Missiya, maqsad va vazifalar",
+        path: {
+          type: "local",
+          path: "/page/mission",
+        },
+      },
+      {
+        id: 4,
+        name: "Rekvizitlar",
+        path: {
+          type: "local",
+          path: "/page/requisities",
+        },
+      },
+      {
+        id: 4,
+        name: "Bog`lanish",
+        path: {
+          type: "local",
+          path: "/static/contacts",
+        },
+      },
+    ],
   },
   {
     id: 4,
