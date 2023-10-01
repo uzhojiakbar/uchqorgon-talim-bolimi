@@ -2,8 +2,12 @@ import React, { useState } from 'react'
 
 import { Child, NavBottomCon } from './style'
 import { NavLink } from 'react-router-dom'
-import  OpenLinks  from '../../utils/OpenLinks'
+import OpenLinks from '../../utils/OpenLinks'
 const NavBottom = () => {
+    const navigate = (link) => {
+        window.location.replace(link);
+
+    }
     const [showChild, setShowchild] = useState(false)
     return (
         <NavBottomCon>
@@ -24,12 +28,20 @@ const NavBottom = () => {
                                 className='child' >
                                 {
                                     v.child.map((k) => {
-                                        return k.path.type === 'local'?<NavLink
-                                        className={'child-link'}
-                                        onMouseEnter={() => setShowchild(v.id)}
-                                        to={k.path.path}>
-                                        {k.name}
-                                    </NavLink> : ''
+                                        return k.path.type === 'local' ? <NavLink
+                                            className={'child-link'}
+                                            onMouseEnter={() => setShowchild(v.id)}
+                                            to={k.path.path}>
+                                            {k.name}
+                                        </NavLink> : <NavLink
+                                            className={'child-link'}
+                                            onMouseEnter={() => setShowchild(v.id)}
+                                            onClick={() => navigate(k.path.navigate)}
+                                            to={'/'}
+                                        >
+                                            {k.name}
+                                        </NavLink>
+
                                     })
                                 }
                             </Child>
@@ -37,7 +49,7 @@ const NavBottom = () => {
                     </NavLink>
                 })
             }
-
+            <a href="https://youtube.com">asasa</a>
 
         </NavBottomCon >
     )
