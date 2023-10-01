@@ -13,13 +13,12 @@ const Rekvizitlar = () => {
                     Rekvizitlar
                 </div>
                 <div className='black marginTop15'>
-                    TOSHKENT SHAHAR XALQ TA’LIMI <br />
-                    BOSH BOSHQARMASI <br />
-                    Adres: Tashkent shahri, Mustaqillik - 69 <br />
-                    h/r 23 402 000 300 100 001 010<br />
-                    STIR: 200 934 858 ,  201 122 919<br />
-                    l/s 400 021 860 262 697 096 300 075 001<br />
-                    MFO 00 014  MB XKKM Toshkent sh.
+                    UCHQO‘RG‘ON TUMAN MAKTABGACHA VA MAKTAB TA‘LIMI BO‘LIMI <br />
+                    Adress: Uchqo'rg'on tuman, Do'stlik ko'cha 33-uy <br />
+                    h/r 23402000300100001010<br />
+                    STIR: 200103324<br />
+                    l/s 100022860142347096300072001<br />
+                    MFO 00014  MB HKKM Toshkent sh.<br />
                 </div>
             </div>
         </Con>

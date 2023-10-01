@@ -46,8 +46,7 @@ const Support = () => {
                             </div>
                             <div className="info">
                                 <div className="name bold serif">Telefon raqami</div>
-                                <div className="link">Uchqo'rg'on tuman hokimiyati, Учқўрғон, Oʻzbekiston
-
+                                <div className="link">Uchqo'rg'on tuman, Do'stlik ko'cha 33-uy
                                 </div>
                             </div>
                         </div>
