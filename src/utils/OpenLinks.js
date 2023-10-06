@@ -2,6 +2,7 @@ import BoshqarmaTuzilmas from "../Pages/BoshqarmaTuzilmasi";
 import Leaders from "../Pages/Leaders";
 import Missiya from "../Pages/Missiya";
 import Yangiliklar from "../Pages/News";
+import OAV from "../Pages/OAV";
 import Rekvizitlar from "../Pages/Rekvizitlar";
 import Support from "../Pages/Support";
 import TahliliyMalumotlar from "../Pages/TahliliyMalumot";
@@ -176,21 +177,21 @@ const OpenLinks = [
       },
       {
         id: 2,
-        name: "Boshqarma tuzilmasi",
+        name: "OAV biz haqimizda",
         path: {
           type: "local",
-          path: "/page/structure",
+          path: "/page/massmedia",
         },
-        element: <BoshqarmaTuzilmas />,
+        element: <OAV />,
       },
       {
         id: 3,
-        name: "Missiya, maqsad va vazifalar",
+        name: "Test",
         path: {
           type: "local",
-          path: "/page/mission",
+          path: "/page/test",
         },
-        element: <Missiya />,
+        element: <OAV />,
       },
       {
         id: 4,

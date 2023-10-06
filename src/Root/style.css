@@ -76,6 +76,7 @@
 .bold {
   font-weight: 900;
 }
+
 .fw700 {
   font-weight: 700;
 }
@@ -102,4 +103,8 @@
 
 .marginTop15 {
   margin: 15px 0;
+}
+
+.bigTitle {
+  font-size: 38px;
 }
