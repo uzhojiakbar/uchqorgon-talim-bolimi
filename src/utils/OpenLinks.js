@@ -1,5 +1,6 @@
 import BoshqarmaTuzilmas from "../Pages/BoshqarmaTuzilmasi";
 import Leaders from "../Pages/Leaders";
+import Maruzalar from "../Pages/Maruza";
 import Missiya from "../Pages/Missiya";
 import Yangiliklar from "../Pages/News";
 import OAV from "../Pages/OAV";
@@ -186,12 +187,12 @@ const OpenLinks = [
       },
       {
         id: 3,
-        name: "Test",
+        name: "Maruzalar",
         path: {
           type: "local",
-          path: "/page/test",
+          path: "/page/reports",
         },
-        element: <OAV />,
+        element: <Maruzalar />,
       },
       {
         id: 4,

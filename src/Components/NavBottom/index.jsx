@@ -49,8 +49,6 @@ const NavBottom = () => {
                     </NavLink>
                 })
             }
-            <a href="https://youtube.com">asasa</a>
-
         </NavBottomCon >
     )
 }
