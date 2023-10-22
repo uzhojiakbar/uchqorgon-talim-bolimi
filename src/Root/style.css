@@ -108,3 +108,13 @@
 .bigTitle {
   font-size: 38px;
 }
+
+.texts {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.texts>div {
+  font-size: 14px;
+}
