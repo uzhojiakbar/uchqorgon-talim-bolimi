@@ -17,6 +17,7 @@
 :root {
   /* color */
   --white: #fff;
+  --white-2: rgba(255, 255, 255, 0.54);
   --black: #000;
   --yellow: #ffc107;
   --blue: #062dc7;
@@ -26,6 +27,8 @@
   --gray: #d9cccc;
   --bold-gray: rgb(51, 48, 48);
   --opacity-gray: rgba(0, 0, 0, 0.445);
+  --opacity-gray2: rgba(0, 0, 0, 0.645);
+  --gray-och: rgb(192, 180, 180);
   /*  */
   --primery: #007bff;
   --primery-2: #2f44bf;

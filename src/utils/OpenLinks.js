@@ -1,4 +1,5 @@
 import BoshqarmaTuzilmas from "../Pages/BoshqarmaTuzilmasi";
+import Galary from "../Pages/Galareya";
 import Leaders from "../Pages/Leaders";
 import Maruzalar from "../Pages/Maruza";
 import Missiya from "../Pages/Missiya";
@@ -196,21 +197,12 @@ const OpenLinks = [
       },
       {
         id: 4,
-        name: "Rekvizitlar",
+        name: "Galareya",
         path: {
           type: "local",
-          path: "/page/requisities",
+          path: "/galary",
         },
-        element: <Rekvizitlar />,
-      },
-      {
-        id: 4,
-        name: "Bog`lanish",
-        path: {
-          type: "local",
-          path: "/static/contacts",
-        },
-        element: <Support />,
+        element: <Galary />,
       },
     ],
   },
