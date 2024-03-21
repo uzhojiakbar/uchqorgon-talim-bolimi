@@ -34,7 +34,7 @@ export const GaleryMock = [
     ],
   },
   {
-    id: 1,
+    id: 2,
     info: {
       name: "2-IDUM 7-g oquvchilari RoboKids musobaqasida",
       date: "16-may 2023-yil",
