@@ -31,10 +31,10 @@ const OpenPhotos = ({ picturesArr, setOpenPhoto }) => {
                 <OtherImages>
                     {
                         picturesArr.map((v) => {
-                            console.log(v.id == slcImg + 1)
+                            console.log(v.id === slcImg + 1)
                             return <OthImage
                                 onClick={() => setSlcImg(v.id - 1)}
-                                active={v.id == slcImg + 1} src={v.path} />
+                                active={v.id === slcImg + 1} src={v.path} />
                         })
                     }
                 </OtherImages>
